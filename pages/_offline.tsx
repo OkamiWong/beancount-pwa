@@ -1,11 +1,11 @@
-import Home from './index'
+import Index from './index'
 
 const Fallback = () => (
   <div>
     <h1>
       Offline!
     </h1>
-    <Home />
+    <Index />
   </div>
 )
 

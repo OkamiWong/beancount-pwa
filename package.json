@@ -4,12 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint . --fix --ext .ts,.tsx,.js,.json",
+    "prepare": "husky install",
     "start": "next start"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{ts,tsx,js,json}": "eslint --cache --fix"

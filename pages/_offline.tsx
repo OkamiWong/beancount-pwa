@@ -1,12 +1,15 @@
+import React from 'react'
 import Index from './index'
 
-const Fallback = () => (
-  <div>
-    <h1>
-      Offline!
-    </h1>
-    <Index />
-  </div>
-)
+function Fallback() {
+  return (
+    <div>
+      <h1>
+        Offline!
+      </h1>
+      <Index />
+    </div>
+  )
+}
 
 export default Fallback

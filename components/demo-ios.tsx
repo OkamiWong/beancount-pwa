@@ -14,7 +14,8 @@ export function DemoIos() {
 
     if (untitledFileText.length === 0) {
       const untitledFileWritableHandle = await untitledFileHandle.createWritable()
-      untitledFileWritableHandle.write('test')
+      await untitledFileWritableHandle.write('test')
+      await untitledFileWritableHandle.close()
     }
   }
   return (

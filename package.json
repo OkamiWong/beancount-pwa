@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
+    "@types/wicg-file-system-access": "^2020.9.5",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "autoprefixer": "^10.4.13",

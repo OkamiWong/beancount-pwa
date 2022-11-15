@@ -1,5 +1,5 @@
 import React from 'react'
-import { Counter } from '../components/counter'
+import { Demo } from '../components/demo'
 
 function Index() {
   return (
@@ -7,7 +7,7 @@ function Index() {
       <div className='text-red-500'>
         Tailwind!
       </div>
-      <Counter />
+      <Demo />
     </div>
   )
 }
